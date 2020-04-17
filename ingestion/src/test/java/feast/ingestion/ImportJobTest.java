@@ -117,7 +117,7 @@ public class ImportJobTest {
     LocalRedis.stop();
     LocalKafka.stop();
   }
-  
+
   @Test
   public void runPipeline_ShouldWriteToRedisCorrectlyGivenValidSpecAndFeatureRow()
       throws IOException, InterruptedException {

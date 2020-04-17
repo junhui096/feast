@@ -529,7 +529,7 @@ class Client:
 
         Returns:
             feast.job.RetrievalJob:
-                Returns a retrival job object that can be used to monitor retrieval
+                Returns a retrieval job object that can be used to monitor retrieval
                 progress asynchronously, and can be used to materialize the
                 results.
 
